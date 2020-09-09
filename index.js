@@ -1,24 +1,44 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 
+const votingAge = 19;
+if(votingAge >= 18){
+    console.log(true);
+}else {
+    console.log(false)
+    }
+
+
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
 
+let car1 = "Lambo";
+let isFast = "Yes";
 
+if(isFast === "Yes"){
+    car1 = "Cool Car";
+}else {
+    car1 = "Laaaaame";
+}
 
-
+console.log(car1);
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
+let number = "1999";
 
+if(number === 1999){
+    Number(true);
+}
 
-
+console.log(number);
 
 //Task d: Write a function to multiply a*b 
 
+// function multiply(a*b)
 
 
 
@@ -35,6 +55,8 @@
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
 
+1,2,3,4
+
 //feeding requirements
 // adult dogs at least 1 year 
 // up to 5 lbs - 5% of their body weight
@@ -49,7 +71,13 @@
 
 // when you are finished invoke your function with the weight of 15 lbs and the age of 1 year - if your calculations are correct your result should be 0.44999999999999996
   
-
+// function hungryDog(weight, age){
+//     if(age >= 1 && weight <=5){
+//     return weight *0.05
+//     } else if(age >= 1 && weight </ 6 && weight <= 10){}
+   
+// }
+// hungryDog(10, 1);
 
 
 
